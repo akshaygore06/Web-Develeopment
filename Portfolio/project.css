@@ -1,0 +1,47 @@
+
+.jumbotron{
+	height: 100%;
+	width: 100%;
+	font-family: lato;
+	color: grey;
+	margin-top: 30px;
+}
+
+.navbar {
+	background-color: rgba(0,0, 0, 0.3);
+}
+
+.li{
+	color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+
+#para{
+	padding-left: 50px;
+}
+
+.carousel-inner
+{
+	width: 600px;
+	height: 400px;
+	margin: auto; 
+	
+}
+
+#myCarousel{
+	width: 600px;
+	height:400px; 
+	margin:auto;
+	outline: none;
+}
+#inner-image{
+	width: 200px;
+	height: 300px;
+}
