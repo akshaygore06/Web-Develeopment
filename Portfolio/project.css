@@ -3,45 +3,98 @@
 	height: 100%;
 	width: 100%;
 	font-family: lato;
-	color: grey;
+	color: gray;
 	margin-top: 30px;
 }
 
 .navbar {
-	background-color: rgba(0,0, 0, 0.3);
+    /*background-color: rgba(0,0, 0, 0.3);*/
+	background-color: #2c3e50;
+}
+.jumbotron > h1{
+	color: #017FFF;
 }
 
-.li{
-	color: black;
+
+.navbar .navbar-nav>li>a {
+    color: #FFFFFF;
+    /*color: #000000;*/
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #000000;
+.navbar-brand {
+    color: #FFFFFF;
+    /*color: #000000;*/
 }
 
-.navbar-inverse .navbar-brand {
-    color: #000000;
+
+li{
+	display: block;
 }
+
+
+.navbar-nav>li>a:hover, .navbar-brand:hover{
+	background-color: rgba(255, 255, 255, 1);
+    color: #2c3e50 ;
+}
+
+a:hover{
+	background-color: rgba(0, 0, 0, 0);
+    /*color: #2c3e50 ;*/
+}
+
+.fa_paw{
+    color: #FFFFFF;
+}
+
 
 #para{
 	padding-left: 50px;
 }
 
-.carousel-inner
-{
-	width: 600px;
-	height: 400px;
+.image_car{
+	width: 40px;
+	height: 500px;
 	margin: auto; 
-	
 }
 
 #myCarousel{
-	width: 600px;
-	height:400px; 
-	margin:auto;
-	outline: none;
+	width: 70%;
+	margin: 0% 25% auto;
 }
-#inner-image{
-	width: 200px;
-	height: 300px;
-}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: 300px;
+  	  width: 520px;
+  	  max-height: 300px;
+      margin: auto;
+      
+
+  }
+
+  .icon{
+  	width: 20px;
+  	height: 20px;
+  }
+
+  .icon1{
+  	width: 200px;
+  	height: 200px;
+  	margin : auto;
+  }
+
+  .icon_div{
+  	margin : auto;
+  }
+  .carousel-inner{
+  	width: 100%;
+  	margin: auto;
+  }
+
+  .carousel > .item{
+  	/*height: 300px;*/
+  	width: 100%;
+  	max-height: 300px;
+  }
+
+
