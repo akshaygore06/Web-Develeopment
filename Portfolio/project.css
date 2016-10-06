@@ -111,6 +111,12 @@ a:hover{
 
   .img{
   	width: 225px;
+    /*max-height: 300px;*/
+  }
+
+  .thumbimg{
+    width: 310px;
+    max-height: 210px;
   }
 
 
